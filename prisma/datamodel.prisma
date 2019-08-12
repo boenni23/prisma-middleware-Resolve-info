@@ -1,0 +1,10 @@
+
+type Item {
+  id: ID! @id
+  field: String!
+  secondItems: [SecondItem!]! @relation(link: INLINE)
+}
+type SecondItem {
+  id: ID! @id
+  secondField: String
+}

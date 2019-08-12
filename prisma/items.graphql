@@ -1,0 +1,3 @@
+mutation{createItem(data: {field:"", secondItems: {create: [
+  {secondField:"1"},{secondField:"2"},{secondField:"3"},{secondField:"4"}
+]}}){id}}
